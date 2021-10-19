@@ -56,10 +56,10 @@
 			children = (
 				7695C8F8266B5AD000C175B1 /* MemoryApp.swift */,
 				7695C8FA266B5AD000C175B1 /* ContentView.swift */,
+				7695C907266B5D1E00C175B1 /* CardView.swift */,
 				7695C8FC266B5AD300C175B1 /* Assets.xcassets */,
 				7695C901266B5AD300C175B1 /* Info.plist */,
 				7695C8FE266B5AD300C175B1 /* Preview Content */,
-				7695C907266B5D1E00C175B1 /* CardView.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
