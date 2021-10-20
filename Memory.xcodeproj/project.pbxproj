@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7665427327200357004BCEA8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7665427227200357004BCEA8 /* CardView.swift */; };
 		7695C8F9266B5AD000C175B1 /* MemoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695C8F8266B5AD000C175B1 /* MemoryApp.swift */; };
 		7695C8FB266B5AD000C175B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7695C8FA266B5AD000C175B1 /* ContentView.swift */; };
 		7695C8FD266B5AD300C175B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7695C8FC266B5AD300C175B1 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7665427227200357004BCEA8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		7695C8F5266B5AD000C175B1 /* Memory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7695C8F8266B5AD000C175B1 /* MemoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryApp.swift; sourceTree = "<group>"; };
 		7695C8FA266B5AD000C175B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				7695C8FC266B5AD300C175B1 /* Assets.xcassets */,
 				7695C901266B5AD300C175B1 /* Info.plist */,
 				7695C8FE266B5AD300C175B1 /* Preview Content */,
+				7665427227200357004BCEA8 /* CardView.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7695C8FB266B5AD000C175B1 /* ContentView.swift in Sources */,
+				7665427327200357004BCEA8 /* CardView.swift in Sources */,
 				7695C8F9266B5AD000C175B1 /* MemoryApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
