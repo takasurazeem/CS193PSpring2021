@@ -12,14 +12,13 @@ struct ContentView: View {
     let sportsEmojis = ["⚽️", "🏀", "🏈", "⚾️", "🥎", "🎾", "🏐", "🏉", "🥏", "🎱", "🪀"]
     let flagsEmojis = ["🇸🇦", "🇵🇰", "🇲🇾", "🇮🇩", "🇺🇿", "🇹🇷", "🇲🇦", "🇹🇯", "🇮🇷", "🇮🇶", "🇰🇼", "🇸🇩"]
     @State var emojis = ["🚗", "🚙", "🏎", "🚕", "🚓", "🚘", "🚖", "🚔", "✈️", "🛺", "🚀"]
-    @State var emojisCount = 8
     var body: some View {
         VStack {
             Text("Memorize!")
                 .font(.largeTitle)
             ScrollView {
                 LazyVGrid(columns: [GridItem(.adaptive(minimum: 65))]) {
-                    ForEach(emojis[0..<emojisCount], id: \.self) { emoji in
+                    ForEach(emojis[0..<Int.random(in: 8...emojis.count)], id: \.self) { emoji in
                         CardView(content: emoji)
                             .aspectRatio(2/3, contentMode: .fit)
                     }
